@@ -1,0 +1,150 @@
+.bg-lightgray {
+  background: rgb(247, 247, 247);
+}
+.bg-lightprimary {
+  background-color: #2a81ba;
+}
+.text-lightprimary {
+  color: #2a81ba;
+}
+.bg-lightinfo {
+  background-color: #ddf2ff;
+}
+.hover {
+  cursor: pointer;
+  border-color: #2a81ba;
+}
+.hover:hover {
+  box-shadow: 0 0 10px #d1d1d1;
+  color: #2a81ba;
+}
+.bg-lightblue {
+  background-color: #c3e6fe;
+}
+@media (min-width: 900px) {
+  .border-end-2 {
+    border-right: 2px solid #2a81ba;
+  }
+}
+@media (max-width: 900px) {
+  #bg-toggle {
+    background: #2a81ba;
+  }
+  .text-toggle {
+    color: white;
+  }
+  .border-toggle {
+    border-bottom: 1px solid white;
+  }
+}
+.pointer {
+  line-height: 30px;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
+footer {
+  position: relative;
+}
+
+/* @media (max-width: 900px) {
+  .scroll-top {
+    position: absolute;
+    top: 40%;
+    left: 85%;
+  }
+}
+@media (min-width: 900px) {
+  .scroll-top {
+    position: absolute;
+    top: 40%;
+    left: 92%;
+  }
+} */
+.line-height {
+  line-height: 40px;
+  letter-spacing: 0.025em;
+}
+
+/* web developer component */
+#roadMapMain {
+  position: relative;
+}
+
+#listStyle {
+  position: absolute;
+  top: 10px;
+  left: -26px;
+}
+#listStyle li {
+  list-style-type: none;
+  padding: 25px 0;
+}
+.borderLeft {
+  border-left: 2px solid rgb(192, 0, 0);
+}
+@media (max-width: 900px) {
+  #listStyle li {
+    padding: 51px 0;
+  }
+  #listStyle {
+    top: -7.5px;
+  }
+}
+@media (min-width: 900px) {
+  .flexing {
+    display: flex;
+    justify-content: space-between;
+  }
+  .w-400 {
+    width: 400px;
+  }
+  .w-500 {
+    width: 500px;
+  }
+}
+
+/* Course Details */
+#ft-details {
+  list-style-type: none;
+}
+
+/* faq component  */
+
+#faq1,
+#faq2,
+#faq3,
+#faq4,
+#faq5,
+#faq6 {
+  letter-spacing: 0.025rem;
+}
+#userChoose1,
+#userChoose2,
+#userChoose3,
+#userChoose4 {
+  transition: 0.5s;
+}
+#userChoose1:hover,
+#userChoose2:hover,
+#userChoose3:hover,
+#userChoose4:hover {
+  transform: scale(1.1);
+}
+.scroll-top {
+  transition: 0.5s;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
