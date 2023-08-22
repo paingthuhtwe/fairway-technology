@@ -148,3 +148,10 @@ footer {
     transform: translateY(0);
   }
 }
+
+/* for nav  */
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
